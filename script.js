@@ -22,7 +22,6 @@ const popup = new ol.Overlay({
 
   // Function to load and parse CSV file
 function handleFileSelect(event) {
-    alert("");
 
     const file = event.target.files[0];
 
